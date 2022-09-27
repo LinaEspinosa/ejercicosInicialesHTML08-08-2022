@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: #E9DEFA;
+   
+    
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.a-paises{
+    padding:5px 10px;
+    background:yellow;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.main-container{
+    margin: 150 auto;
+    width: 600px;
+}
+
+  table{
+    margin: 10px;  
+    width: 100%;  
+    /* background-color:  #ebf5fb ; */
+    table-layout:fixed; /*la tabla renderiza mucho más rápido*/
+    border-collapse:collapse;
+    text-align: left;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 9px 16px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 5px 9px 16px -3px rgba(0, 0, 0, 0.27);
+      
+  }
+  
+  
+  th {
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+  
+  td {
+    
+    padding: 0.5rem 1rem;
+    
+     
+  
+  }
